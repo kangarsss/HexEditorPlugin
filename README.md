@@ -19,3 +19,7 @@
 
 AHE contains the plugin for installation.
 HexEditor contains the plugin source code.
+
+## Licence ##
+
+Software is provided with GNU Lesser General Public License.
