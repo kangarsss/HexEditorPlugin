@@ -1,0 +1,11 @@
+	Steps for sirvival working with Hex (last time tried 12.07.2017)
+
+1. Download and install Eclipse Neon v4.7 (Can use given - http://www.eclipse.org/downloads/eclipse-packages/), EE edittion.
+2. Clone HexEditorPlugin from   https://github.com/valdisvi/HexEditorPlugin (in newly created map)
+3. In terminal (Ctrl + Alt+ T) run commands    3.1.   sudo apt-get update; (this is optional)
+												   3.2.  sudo apt-get upgrade;
+4. Start Eclipse and in menu HELP >> Install new software;
+												  Click ADD >> LOCAL  ,  and set path to newly cloned "AHE" folder
+												  Select HexFeature in item tree and complete setup wizard (accept agreement), if cannot pick (item is in grey color), start from beginning, dont waste time on fixing projects.
+5. Restart Eclipse  open File - Open Project from File system- path to HexEditor folder (cloned) to edit the plugin
+6. For Testing choose file (if you want to open with Hexadecimal Editort) open's with OTHER...in upper list ALTERNATIVE_HEXADECIMAL_EDITOR
